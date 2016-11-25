@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Projet_Prog_Mobile_1</string>
+    <string name="msg">Test ça marche ??? ou pas ???</string>
+    <string name="title_activity_seconde">SecondeActivity</string>
+</resources>
