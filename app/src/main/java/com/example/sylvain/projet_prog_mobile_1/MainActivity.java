@@ -16,11 +16,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-
+/*
     public void fct_1_test(View button) {
         Toast.makeText(getApplicationContext(),getString(R.string.msgToast),Toast.LENGTH_LONG).show();
 
     }
+    */
 
     public void notif_1_test(View v) {
         NotificationCompat.Builder Notification_1 = (NotificationCompat.Builder) new NotificationCompat.Builder(this)
