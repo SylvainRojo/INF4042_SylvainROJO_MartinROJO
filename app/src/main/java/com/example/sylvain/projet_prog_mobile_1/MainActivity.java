@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void fct_1_test(View button) {
-        Toast.makeText(getApplicationContext(),getString(R.string.msg),Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(),getString(R.string.msgToast),Toast.LENGTH_LONG).show();
 
     }
 
@@ -38,5 +38,9 @@ public class MainActivity extends AppCompatActivity {
     public void actCall(View v){
         Intent intent_1 = new Intent(this,SecondeActivity.class);
         startActivity(intent_1);
+    }
+
+    public void monToast(View v){
+        Toast.makeText(getApplicationContext(),getString(R.string.msgToast),Toast.LENGTH_LONG).show();
     }
 }
